@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div id="container" class="container-fluid">
+          <a class="navbar-brands"><img style="width: 40px;" src="images/icons8-logo-96.png"> </a>
+          <form class="d-flex">
+              <p id="language"><img style="width: 15px; height: 23px;" src="images/icons8-united-states-48.png">English </p>
+
+
+            
+            <p>
+            <img style="width: 12px; height: 17px;" src="images/icons8-down-24.png">
+
+            <img src="images/icons8-bell-48.png" style="width: 15px;height: 17px;">
+            <img src="images/icons8-facebook-messenger-48.png" style="width: 15px;height: 17px;">
+            <img style="width: 30px;" src="images/chris-murray-VSC_FVzpgLo-unsplash.jpg">
+            Chris Hemsworth
+             </p>
+
+            <p>
+
+            <img style="width: 12px;" src="images/icons8-sort-down-24.png">
+            </p>
+            <!-- <input class="form-control me-2" type="datetime" placeholder="From" aria-label="Search"> -->
+            <!-- <input class="form-control me-2" type="datetime" placeholder="To" aria-label="Search"> -->
+
+            
+          </form>
+        </div>
+      </nav>
+
+
+
+      <nav class="navbar navbar-light bg" id="table" style="max-width: 90%;height: auto; margin: 0 auto;">
+        <div class="container-fluid">
+          <a class="navbar-brand">Invoice And Reciept</a>
+          <form class="d-flex">
+            <input id="input" class="form-control me-2" type="datetime" placeholder="From" aria-label="Search">
+            <input id="input" class="form-control me-2" type="datetime" placeholder="To" aria-label="Search">
+
+            <button style="background-color: rgba(54, 115, 179, 0.7); padding: 0 50px 0; color: black;" class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+
+
+      <!-- header k  neechey waala area hai  jis mai graph ka kaam hogaa wo waala area hai -->
+      <section>
+      <ul class="nav flex-column">
+        <li id="nav" class="nav-item" > 
+         <a class="nav-links" style="margin: -58px 10px 0;z-index: 1; font-size: 15px; font-weight: bolder;text-decoration: none; background-color:rgba(158, 158, 150, 1);border-radius: 5px; padding: 20px 45px 8px;"> Reset tel Aviw</a> </li>
+
+        <li class="nav-item">
+        
+          <a class="nav-link active" aria-current="page" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-human-queue-48.png"> Human Res </a>
+          <img style="width: 19px; height: 25px; margin: 10px 0 0;" src="images/icons8-sort-right-24.png">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-bread-and-rye-48.png"> Products </a>
+          <img style="width: 19px; height: 25px; margin: 10px 0 0;" src="images/icons8-sort-right-24.png">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-warehouse-60.png"> Warehouse </a>
+          <img style="width: 19px; height: 25px; margin: 10px 0 0;" src="images/icons8-sort-right-24.png">
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-pos-terminal-48.png"> POS </a>
+            <img style="width: 19px; height: 25px; margin: 10px 0 0;"  src="images/icons8-sort-right-24.png">
+          </li>
+      
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-human-queue-48.png"> Resturants </a>
+            <img style="width: 19px; height: 25px; margin: 10px 0 0;"  src="images/icons8-sort-right-24.png">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-human-queue-48.png"> Reposrtist </a>
+            <img style="width: 19px; height: 25px; margin: 10px 0 0;"  src="images/icons8-sort-right-24.png">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img style="height: 15px; width: 17px;" src="images/icons8-setting-64.png"> Setting </a>
+            <img style="width: 19px; height: 25px; margin: 10px 0 0;"  src="images/icons8-sort-right-24.png">
+          </li>
+      </ul>      
+
+      <table style="max-width: 80%;" class="table caption-top">
+        <caption> <strong> Graph Area </strong></caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+
+
+
+
+
+</body>
+</html>
